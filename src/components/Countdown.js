@@ -59,6 +59,6 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: colors.orange,
     padding: spacing.lg,
-    backgroundColor: '#darkBlue',
+    backgroundColor: colors.darkBlue,
   },
 });
