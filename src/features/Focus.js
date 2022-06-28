@@ -9,11 +9,11 @@ export const Focus = ({ addSubject }) => {
   const [subject, setSubject] = useState(null);
   return (
   <View style={styles.container}>
-    <View style={styles.inputContainer}> 
-      <TextInput 
-        onChangeText={setSubject} 
+    <View style={styles.inputContainer}>
+      <TextInput
+        onChangeText={setSubject}
         label="What would you like to focus on?"
-        style={styles.textInput} 
+        style={styles.textInput}
         activeUnderlineColor={colors.orange}
         />
       <View style={styles.button}>
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
   },
   inputContainer: {
     padding: spacing.lg,
-    justifyContent: 'top',
+    justifyContent: 'start',
     flexDirection: 'row',
   },
 });
